@@ -3,11 +3,11 @@ body{
     display: grid;
     gap: 15px;
     grid-template-areas:  
-    "cabeca""cabeca""cabeca"
-    "secundaria""principal""principal"
-    "rodape""rodape""rodape";
-    grid-template-columns: 1fr 1fr 3fr 1fr;
-    grid-template-rows: auto auto auto auto;
+    "cabeca cabeca cabeca"
+    "secundaria principal principal"
+    "rodape rodape rodape";
+    grid-template-columns: 3fr 1fr 2fr;
+    grid-template-rows: auto auto auto;
 
  }
 @media only screen and  (max-width:800px ){
@@ -24,24 +24,25 @@ body{
 
 }
 header{
-    grid-area: "cabeca";
+    mar
+    grid-area: cabeca;
     background-color: pink;
     display: flex;
-    /*background-image: linear-gradient( to rigth, red, yellow, blue ) */
+    background-image: linear-gradient( to rigth, red, yellow, blue )
 }
 main{
-    grid-area: "principal";
+    grid-area: principal;
     background-color: plum;
     padding: 60px;
     margin: 4px;
 }
 aside{
-    grid-area: "secundaria";
+    grid-area: secundaria;
     background-color: bisque;
 
 }
 footer{
-    grid-area: "rodape";
+    grid-area: rodape;
     background-color:plum;
 }
  .caixa{
@@ -68,11 +69,11 @@ nav{
     top: 320px;
 }
 .logotipo{
-    position: absolute;
-    right: 20px;
-    left: 20px;
-    top: 5%;
-    width: 200px;
+    position: relative;
+    top: 10px;
+    left: 300px;
+    right: 8px;;
+    width: 90px;
 }
 .pincel{
     position: relative;
@@ -82,12 +83,9 @@ nav{
     width: 100px;
 }
 h4{
-    position: relative;
-    left: 20px;
-    right: 20px;
-    top: 210px;
+    text-align: left;
     border: 2px white;
-    font-family:cursive;
+    font-family: cursive;
 }
 h5{
     position: relative;
