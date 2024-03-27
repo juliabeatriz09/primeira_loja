@@ -6,7 +6,7 @@ body{
     "cabeca cabeca cabeca"
     "secundaria principal principal"
     "rodape rodape rodape";
-    grid-template-columns: 3fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 2fr;
     grid-template-rows: auto auto auto;
 
  }
@@ -24,7 +24,6 @@ body{
 
 }
 header{
-    mar
     grid-area: cabeca;
     background-color: pink;
     display: flex;
@@ -36,24 +35,67 @@ main{
     padding: 60px;
     margin: 4px;
 }
+.caixa_mae{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    border-radius: 10px;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: azure;
+    transition: 1s;
+}
+
+.card:hover{
+    background-color: cornsilk;
+}
+
+.card img{
+width: 280px;
+border-radius: 5px;
+}
+.card a{
+    border-radius: 30px;
+    background-color: blanchedalmond;
+    display: block;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: cornsilk;
+    transition: 0,5s;
+}
+
+.card a:houver{
+    background-color: aquamarine;
+    color: cadetblue;
+}
+
 aside{
     grid-area: secundaria;
     background-color: bisque;
-
 }
+
 footer{
     grid-area: rodape;
     background-color:plum;
 }
+
  .caixa{
     box-shadow: 2px 0px 3px 1px white;
     width: 80px;
     height: 80px;
     border-radius: 20px 0 10px 0;
     position: relative;
-    margin-top: 150px;
-
+    margin-top: 15px;
 }
+
 .elementomae{
     height: 300px;
     justify-content: space-between;
@@ -68,6 +110,7 @@ nav{
     position: absolute;
     top: 320px;
 }
+
 .logotipo{
     position: relative;
     top: 10px;
@@ -75,18 +118,20 @@ nav{
     right: 8px;;
     width: 90px;
 }
-.pincel{
+
+/* .pincel{ 
     position: relative;
     top: 5%;
     left: 50px;
     right: 20px;
     width: 100px;
-}
+  }  */
 h4{
     text-align: left;
     border: 2px white;
     font-family: cursive;
 }
+
 h5{
     position: relative;
     left: 20PX;
