@@ -56,13 +56,13 @@ main{
     background-color: cornsilk;
 }
 
-.card img{
+/* .card img{
 width: 280px;
 border-radius: 5px;
-}
+} */
 .card a{
     border-radius: 30px;
-    background-color: blanchedalmond;
+    background-color: rgb(253, 125, 189);
     display: block;
     height: 30px;
     width: 120px;
@@ -87,16 +87,16 @@ footer{
     background-color:plum;
 }
 
- .caixa{
+ /* .caixa{ 
     box-shadow: 2px 0px 3px 1px white;
     width: 80px;
     height: 80px;
     border-radius: 20px 0 10px 0;
     position: relative;
     margin-top: 15px;
-}
+ } */
 
-.elementomae{
+/* .elementomae{
     height: 300px;
     justify-content: space-between;
     border: 2px burlywood;
@@ -104,7 +104,7 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-}
+} */
 nav{
     border: 2px beige;
     position: absolute;
@@ -112,20 +112,29 @@ nav{
 }
 
 .logotipo{
-    position: relative;
+    position: absolute;
     top: 10px;
     left: 300px;
     right: 8px;;
     width: 90px;
 }
 
-/* .pincel{ 
-    position: relative;
-    top: 5%;
-    left: 50px;
-    right: 20px;
-    width: 100px;
-  }  */
+.pincel{ 
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    width: 280px;
+  } 
+  .aquarela{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    width: 280px;
+  }  
 h4{
     text-align: left;
     border: 2px white;
