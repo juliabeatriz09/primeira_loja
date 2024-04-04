@@ -131,7 +131,7 @@ nav{
     height: 200px;
   } 
   .aquarela{
-    position: absolute;
+    position: relative;
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
@@ -139,6 +139,15 @@ nav{
     width: 280px;
     height: 200px;
   }  
+  .cavalete{
+    width: 260px;
+    margin-top: 10px;
+  }
+  .tela{
+    width: 280px;
+    height: 200px;
+    margin-top: 10px;
+  }
 header h2{
     text-align: center;
     color:mediumpurple;
@@ -153,4 +162,10 @@ footer h5{
     top: 15PX;
     font-size: medium;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer a{
+    background-color: beige;
+    transition: 2s;
+    color: black;
+    font-size: large;
 }
