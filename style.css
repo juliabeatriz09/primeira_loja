@@ -143,9 +143,24 @@ nav{
     width: 260px;
     margin-top: 10px;
   }
+  .tintaoleo{
+    width: 2600px;
+    height: 200px;
+    margin-top: 10px;
+  }
   .tela{
     width: 280px;
     height: 200px;
+    margin-top: 10px;
+  }
+  .giz{
+    width: 280px;
+    height: 200px;
+    margin-top: 10px;
+  }
+  .diluidor{
+    height: 240px;
+    width: 280px;
     margin-top: 10px;
   }
 header h2{
