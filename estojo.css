@@ -1,0 +1,66 @@
+body{
+    background-color:white;
+    display: grid;
+    gap: 15px;
+    grid-template-areas:  
+    "cabeca cabeca cabeca"
+    "secundaria principal principal"
+    "rodape rodape rodape";
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: auto auto auto;
+
+ }
+@media only screen and  (max-width:800px ){
+   body{
+    grid-template-areas: 
+    "cabeca"
+    "secudario"
+    "principal"
+    "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: auto 200px auto auto auto;
+    
+    }
+}
+
+header{
+    grid-area: cabeca;
+    background-color: pink;
+    display: flex;
+    background-image: linear-gradient( to rigth, rgb(243, 145, 199), rgb(143, 193, 221), rgb(212, 214, 108) )
+}
+.logotipo{
+    position: relative;
+    margin-top: 7px;
+    margin-left: 8px;;
+    margin-bottom: 7px;
+    width: 90px;
+}
+aside{
+    grid-area: secundaria;
+    background-color: bisque;
+}
+main{
+    grid-area: principal;
+    background-color: plum;
+    padding: 60px;
+    margin: 4px;
+}
+.estojo{
+    width: 300px;
+    height: 450px;
+    border-bottom: 4px;
+    border-radius: 2px;
+    background-color: rgb(158, 177, 177);
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+    padding: auto;
+
+}
+
+footer{
+    grid-area: rodape;
+    background-color:plum;
+}
