@@ -46,6 +46,10 @@ main{
     padding: 60px;
     margin: 4px;
 }
+main h2{
+    background-color: rgb(186, 243, 243);
+    border-radius: 2px;
+}
 .estojo{
     width: 300px;
     height: 450px;
@@ -63,4 +67,9 @@ main{
 footer{
     grid-area: rodape;
     background-color:plum;
+}
+footer a{
+    background-color: rgb(173, 226, 226);
+    border-radius: 3px;
+    padding: 3px;
 }
