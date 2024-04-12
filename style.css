@@ -23,40 +23,28 @@ body{
     }
 
 }
+
 header{
     grid-area: cabeca;
-    background-color: pink;
+    background-color: plum;
     display: flex;
-    flex-direction: column;
+    background-image: linear-gradient( to rigth, rgb(243, 145, 199), rgb(143, 193, 221), rgb(212, 214, 108) )
 }
-head nav li{
-    display: inline;
-    position: absolute;
-    right: 20px;
-    top: 10px;
-}
-header nav a{
-    text-decoration: none;
-    background-color: rgb(194, 243, 243);
-    border-radius: 2px;
-    position: relative;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    padding: 4px
 
-
-}
 main{
     grid-area: principal;
-    background-color: plum;
+    background-color: rgb(238, 230, 238);
     padding: 60px;
     margin: 4px;
 }
+
 .caixa_mae{
     display: flex;
     flex-wrap: wrap;
     justify-content: baseline;
+    
 }
+
 .card{
     flex-direction: column;
     border-radius: 10px;
@@ -66,39 +54,41 @@ main{
     text-align: center;
     align-items: center;
     margin: 20px;
-    background-color: azure;
-    justify-content: row;
+    background-color: rgb(235, 150, 230);
+    justify-content: center;
     transition: 1s;
 }
 
 .card:hover{
-    background-color: rgb(135, 217, 241);
+    background-color: rgb(156, 63, 110)
 }
 
  .card img{
 width: 280px;
 border-radius: 5px;
 } 
+
 .card a{
     border-radius: 30px;
-    background-color: rgb(253, 125, 189);
+    background-color: purple;
     display: block;
     height: 30px;
     width: 120px;
     text-align: center;
     text-decoration: none;
-    color: cornsilk;
+    color: rgb(189, 86, 154);
     transition: 0,5s;
 }
 
 .card a:hover{
-    background-color: aquamarine;
-    color: rgb(231, 50, 171);
+    background-color: rgb(88, 12, 63);
+    color: rgb(109, 6, 100);
 }
 
 aside{
     grid-area: secundaria;
     background-color: bisque;
+    display: flex;
 }
 
 footer{
@@ -123,19 +113,32 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-} 
-/* ;nav{  
+}
+ 
+header nav{
     border: 2px beige;
-    position: absolute;
-    top: 320px;
-} */
+    position: relative;
+    top: 50px;
+    left: 800px;
+    flex-direction: column;
+    color: mediumorchid;
+}
+
+nav a{
+text-decoration: none;
+color:mediumpurple;
+background-color: gainsboro;
+border-radius: 5px;
+
+}
 
 .logotipo{
     position: relative;
     margin-top: 7px;
     margin-left: 8px;;
     margin-bottom: 7px;
-    width: 200px;
+    width: 90px;
+    border-radius: 3px;
 }
 
 .pincel{ 
@@ -144,8 +147,8 @@ footer{
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 50px;
-    width: 280px;
-    height: 200px;
+    width: 380px;
+    height: 300px;
   } 
   .aquarela{
     position: relative;
@@ -181,21 +184,22 @@ footer{
     margin-top: 10px;
   }
 header h2{
+
     text-align: center;
-    color:mediumpurple;
+    color:rgba(253, 242, 242, 0.699);
     font-family: cursive;
-    font-size: xx-large;
+    font-size: large;
 }
 
 footer h5{
     position: relative;
     left: 20PX;
-    right: 2PX;
+    right: 25PX;
     top: 15PX;
     font-size: medium;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-footer a{
+footer nav a{
     background-color: beige;
     transition: 2s;
     color: black;
