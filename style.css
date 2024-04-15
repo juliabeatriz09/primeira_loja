@@ -134,10 +134,11 @@ border-radius: 5px;
 
 .logotipo{
     position: relative;
-    margin-top: 7px;
-    margin-left: 8px;;
-    margin-bottom: 7px;
-    width: 90px;
+    left: auto;
+    height: auto;
+    margin-right: 1px;
+    
+    width: 120px;
     border-radius: 3px;
 }
 
@@ -188,7 +189,7 @@ header h2{
     text-align: center;
     color:rgba(253, 242, 242, 0.699);
     font-family: cursive;
-    font-size: large;
+    font-size: x-large;
 }
 
 footer h5{
@@ -204,4 +205,12 @@ footer nav a{
     transition: 2s;
     color: black;
     font-size: large;
+}
+button{
+    background-color: powderblue;
+    width: 120px;
+    height: 40px;
+    position: relative;
+    left: 400px;
+    top:60px;
 }
