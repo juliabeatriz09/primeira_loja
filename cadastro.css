@@ -1,0 +1,24 @@
+body{
+    background-color:white;
+    display: grid;
+    gap: 15px;
+    grid-template-areas:  
+    "cabeca cabeca cabeca"
+    "secundaria principal principal"
+    "rodape rodape rodape";
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: auto auto auto;
+
+ }
+@media only screen and  (max-width:800px ){
+   body{
+    grid-template-areas: 
+    "cabeca"
+    "secudario"
+    "principal"
+    "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: auto 200px auto auto auto;
+    
+    }
+}
