@@ -22,3 +22,29 @@ body{
     
     }
 }
+
+header{
+    grid-area: cabeca;
+    background-color:rgb(175, 175, 248) ;
+}
+
+main{
+    grid-area: principal;
+    background-color:rgb(175, 175, 248)
+}
+div{
+    size: 300px;
+}
+
+main nav a{
+    text-decoration: none;
+    background-color: aqua;
+    border-radius: 2px;
+    color: blue;
+}
+
+footer{
+    grid-area:rodape;
+    background-color: rgb(175, 175, 248);
+
+}
