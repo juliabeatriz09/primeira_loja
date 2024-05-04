@@ -1,10 +1,10 @@
 body{
-    background-color:white;
+    background-color:rgb(109, 169, 177);
     display: grid;
     gap: 15px;
     grid-template-areas:  
     "cabeca cabeca cabeca"
-    "secundaria principal principal"
+    "principal principal principal"
     "rodape rodape rodape";
     grid-template-columns: 1fr 1fr 2fr;
     grid-template-rows: auto auto auto;
@@ -28,19 +28,38 @@ header{
     background-color:rgb(175, 175, 248) ;
 }
 
+
 main{
     grid-area: principal;
-    background-color:rgb(175, 175, 248)
+    background-color:rgb(135, 135, 170);
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+    border: 500px;
+    justify-content: center;
+    width: 400px;
+    height: 480px;
+    padding: 40px;
 }
-div{
-    size: 300px;
-}
+ 
+/* .painel{
+    border-radius: 10px;
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+    background-color: rgb(145, 175, 209);
+    transition: 1s;
+} */
+
 
 main nav a{
     text-decoration: none;
-    background-color: aqua;
+    background-color: rgb(146, 192, 192);
     border-radius: 2px;
-    color: blue;
+    color: rgb(113, 68, 134);
 }
 
 footer{
