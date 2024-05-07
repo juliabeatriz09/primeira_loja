@@ -78,6 +78,15 @@ main{
 
 }
 
+.esto{
+    width: 200px;
+    height: 240px;
+    border-radius: 2px;
+    border: rgb(155, 223, 223);
+    position: relative;
+    left: 23%;
+}
+
 main h3{
     color: rgb(180, 79, 180);
     background-color: beige;
