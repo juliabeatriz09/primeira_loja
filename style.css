@@ -1,3 +1,8 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
 body{
     background-color:white;
     display: grid;
@@ -85,10 +90,19 @@ border-radius: 5px;
     color: rgb(109, 6, 100);
 }
 
-aside{
+/* aside{
     grid-area: secundaria;
     background-color: bisque;
     display: flex;
+} */
+.menu{
+    width: 40px;
+    height: 40px;
+}
+
+input[type="checkbox"]:checked ~ nav
+{
+    transform: translateX(350px);
 }
 
 footer{
@@ -115,21 +129,44 @@ footer{
     align-items: center;
 }
  
-header nav{
-    border: 2px beige;
-    position: relative;
-    top: 50px;
-    left: 800px;
-    flex-direction: column;
-    color: mediumorchid;
+nav{
+    background-color: rgb(233, 191, 233);
+    width: 350px;
+    height:100% ;
+    left: -350px;
+    position:relative ;
 }
 
 nav a{
-text-decoration: none;
-color:mediumpurple;
-background-color: gainsboro;
-border-radius: 5px;
+   text-decoration: none;
+   display: block;
+   color:rgb(111, 129, 141);
+   background-color: rgb(233, 191, 233);
+   padding: 20px 5px;
+}
 
+label{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+a:hover{
+    background-color: rgb(152, 152, 226);
+
+}
+
+ul{
+    position: absolute;
+    top: 50x;
+    width: 100%;
+}
+li{
+    list-style: none;
 }
 
 .logotipo{
@@ -184,6 +221,7 @@ border-radius: 5px;
     width: 280px;
     margin-top: 10px;
   }
+
 header h2{
 
     text-align: center;
