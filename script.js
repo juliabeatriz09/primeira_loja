@@ -4,11 +4,11 @@ function ola() {
 }
 
 function troca_item() {
-    var estojo= document.getElementById('esto');
+    var coraçao= document.getElementById('like');
 
-    if(esto.src.match("estojoo.jpeg")){
-        estojo.src ="estojo.jpeg";
+    if(like.src.match("coraçao.png")){
+        curtir.src ="coraçaor.jpeg";
     } else {
-        esto.scr = "estojoo.jpeg"
+        like.scr = "coraçao.png";
     }
 }

@@ -90,11 +90,11 @@ border-radius: 5px;
     color: rgb(109, 6, 100);
 }
 
-/* aside{
+ aside{
     grid-area: secundaria;
     background-color: bisque;
     display: flex;
-} */
+} 
 .menu{
     width: 40px;
     height: 40px;
@@ -149,6 +149,8 @@ label{
     padding: 15px;
     position: absolute;
     z-index: 1;
+    top: 45px;
+    left: 90px;
 }
 
 input[type="checkbox"]{
@@ -171,22 +173,17 @@ li{
 
 .logotipo{
     position: relative;
-    left: auto;
-    height: auto;
-    margin-right: 1px;
-    
-    width: 120px;
+    margin-top: 7px;
+    margin-left: 8px;;
+     margin-bottom: 7px;
+    width: 90px;
     border-radius: 3px;
 }
 
 .pincel{ 
-    position: relative;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 50px;
     width: 380px;
     height: 300px;
+    padding: 20px ;
   } 
   .aquarela{
     position: relative;
