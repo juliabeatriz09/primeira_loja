@@ -6,7 +6,7 @@ function ola() {
 function troca_item() {
     var coraçao= document.getElementById('like');
 
-    if(like.src.match("coraçao.png")){
+    if(like.src.match('coraçao.png')){
         curtir.src ="coraçaor.jpeg";
     } else {
         like.scr = "coraçao.png";

@@ -90,20 +90,6 @@ border-radius: 5px;
     color: rgb(109, 6, 100);
 }
 
- aside{
-    grid-area: secundaria;
-    background-color: bisque;
-    display: flex;
-} 
-.menu{
-    width: 40px;
-    height: 40px;
-}
-
-input[type="checkbox"]:checked ~ nav
-{
-    transform: translateX(350px);
-}
 
 footer{
     grid-area: rodape;
@@ -145,6 +131,22 @@ nav a{
    padding: 20px 5px;
 }
 
+aside{
+    grid-area: secundaria;
+    background-color: bisque;
+    display: flex;
+} 
+.menu{
+    width: 40px;
+    height: 40px;
+}
+
+input[type="checkbox"]:checked ~ nav
+{
+    transform: translateX(350px);
+}
+
+
 label{
     padding: 15px;
     position: absolute;
@@ -167,9 +169,15 @@ ul{
     top: 50x;
     width: 100%;
 }
+
 li{
     list-style: none;
 }
+
+@media only screen and  (max-width:400px ){
+    
+}
+
 
 .logotipo{
     position: relative;
@@ -185,7 +193,7 @@ li{
     height: 300px;
     padding: 20px ;
   } 
-  .aquarela{
+.aquarela{
     position: relative;
     margin-top: 10px;
     margin-left: 20px;
@@ -194,26 +202,26 @@ li{
     width: 280px;
     height: 200px;
   }  
-  .cavalete{
+.cavalete{
     width: 260px;
     margin-top: 10px;
   }
-  .tintaoleo{
+.tintaoleo{
     width: 2600px;
     height: 200px;
     margin-top: 10px;
   }
-  .tela{
+.tela{
     width: 280px;
     height: 200px;
     margin-top: 10px;
   }
-  .giz{
+.giz{
     width: 280px;
     height: 200px;
     margin-top: 10px;
   }
-  .diluidor{
+.diluidor{
     height: 240px;
     width: 280px;
     margin-top: 10px;
