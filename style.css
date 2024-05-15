@@ -43,6 +43,7 @@ main{
     margin: 4px;
 }
 
+/* inicio card */
 .caixa_mae{
     display: flex;
     flex-wrap: wrap;
@@ -89,7 +90,7 @@ border-radius: 5px;
     background-color: rgb(88, 12, 63);
     color: rgb(109, 6, 100);
 }
-
+/* fim  alteraçoes card */
 
 footer{
     grid-area: rodape;
@@ -115,6 +116,7 @@ footer{
     align-items: center;
 }
  
+/* começo alteraçoes menu */
 nav{
     background-color: rgb(233, 191, 233);
     width: 350px;
@@ -174,10 +176,15 @@ li{
     list-style: none;
 }
 
+/* responsividade menu */
 @media only screen and  (max-width:400px ){
+    .menu{
+        display: block;
+    }
     
 }
-
+/* fim responsividade menu */
+/* fim alteraçoes menu */
 
 .logotipo{
     position: relative;
@@ -187,7 +194,7 @@ li{
     width: 90px;
     border-radius: 3px;
 }
-
+/* inicio alteraçoes img card */
 .pincel{ 
     width: 380px;
     height: 300px;
@@ -227,6 +234,7 @@ li{
     margin-top: 10px;
   }
 
+  /* fim alteraçoes de img card */
 header h2{
 
     text-align: center;
@@ -249,6 +257,7 @@ footer nav a{
     color: black;
     font-size: large;
 }
+/* botao bem vindo */
 button{
     background-color: powderblue;
     width: 120px;
@@ -257,3 +266,4 @@ button{
     left: 400px;
     top:10px;
 }
+/* fim botao bem vindo */

@@ -1,3 +1,4 @@
+/* divisao grid */
 .body{
     background-color:rgb(109, 169, 177);
     display: grid;
@@ -10,6 +11,9 @@
     grid-template-rows: auto auto auto;
 
  }
+
+ /* fim divisao grid */
+ /* responsividade */
 @media only screen and  (max-width:800px ){
    body{
     grid-template-areas: 
@@ -22,6 +26,7 @@
     
     }
 }
+/* fim responsividade */
 
 header{
     grid-area: cabeca;
@@ -35,12 +40,23 @@ main{
     
 
 }
-
+ 
 .estojo{
     width: 300px;
     height: auto;
 
 }
+
+.cora{
+    width: 30px;
+    height: auto;
+}
+
+.çao{
+    width: 30px;
+    height: auto;
+}
+
 footer{
     grid-area:rodape;
     background-color: rgb(175, 175, 248);
