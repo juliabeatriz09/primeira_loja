@@ -33,6 +33,10 @@ header{
     grid-area: cabeca;
     background-color: plum;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
     background-image: linear-gradient( to rigth, rgb(243, 145, 199), rgb(143, 193, 221), rgb(212, 214, 108) )
 }
 
@@ -141,6 +145,10 @@ aside{
 .menu{
     width: 40px;
     height: 40px;
+    position: relative;
+    top: 120px;
+    right: 100px;
+    padding: 5px;
 }
 
 input[type="checkbox"]:checked ~ nav
@@ -174,6 +182,8 @@ ul{
 
 li{
     list-style: none;
+    position: relative;
+    text-align: center;
 }
 
 /* responsividade menu */
@@ -190,7 +200,7 @@ li{
     position: relative;
     margin-top: 7px;
     margin-left: 8px;;
-     margin-bottom: 7px;
+    margin-bottom: 7px;
     width: 90px;
     border-radius: 3px;
 }
@@ -243,27 +253,37 @@ header h2{
     font-size: x-large;
 }
 
-footer h5{
+footer{
+    grid-area: rodape;
+    background-color: plum;
+}
+
+.insta{
+    width: 10px;
+    height: auto;
+}
+.whats{
+    width: 10px;
+    height: auto;
+}
+
+.t2{
     position: relative;
-    left: 20PX;
-    right: 25PX;
-    top: 15PX;
-    font-size: medium;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    right: 0px;
 }
-footer nav a{
-    background-color: beige;
-    transition: 2s;
-    color: black;
-    font-size: large;
+
+.t1{
+    text-align: center;
+
 }
+
 /* botao bem vindo */
-button{
+/* button{
     background-color: powderblue;
-    width: 120px;
-    height: 40px;
+    width: 100px;
+    height: 30px;
     position: relative;
-    left: 400px;
+    left:0;
     top:10px;
-}
+} */
 /* fim botao bem vindo */

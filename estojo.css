@@ -113,23 +113,22 @@ footer{
     grid-area: rodape;
     background-color:plum;
 }
+.insta{
+    width: 10px;
+    height: auto;
+}
+.whats{
+    width: 10px;
+    height: auto;
+}
 
-footer h5{
+.t2{
     position: relative;
-    left: 20PX;
-    right: 25PX;
-    top: 15PX;
-    font-size: medium;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-footer nav a{
-    background-color: beige;
-    text-decoration: none;
-    transition: 2s;
-    color:mediumorchid;
-    font-size: large;
-    position:relative; 
-    left: 50px;
+    right: 0px;
 }
 
+.t1{
+    text-align: center;
+
+}
 
