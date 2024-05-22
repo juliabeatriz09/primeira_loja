@@ -31,13 +31,19 @@
 header{
     grid-area: cabeca;
     background-color: plum;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
 }
+
 main{
     grid-area: principal;
     background-color: rgb(238, 230, 238);
     padding: 60px;
     margin: 4px;
-    
+    align-items: center;
+    flex-direction: column;
 
 }
  
@@ -57,7 +63,11 @@ main{
     height: auto;
 }
 
+.buttom{
+   flex-direction: row;
+}
+
 footer{
     grid-area:rodape;
-    background-color: rgb(175, 175, 248);
+    background-color: plum;
 }
