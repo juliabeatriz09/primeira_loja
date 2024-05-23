@@ -14,7 +14,7 @@ body{
    body{
     grid-template-areas: 
     "cabeca"
-    "secudario"
+    "principal"
     "principal"
     "rodape";
     grid-template-columns: auto;

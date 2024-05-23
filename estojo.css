@@ -30,14 +30,6 @@ header{
     background-color: plum;
 }
 
-header nav{
-    border: 2px beige;
-    position: relative;
-    top: 50px;
-    left: 800px;
-    flex-direction: column;
-    color: mediumorchid;
-}
 main a{
 text-decoration: none;
 color:mediumpurple;
@@ -61,24 +53,55 @@ aside{
 .menu{
     width: 40px;
     height: 40px;
-    position: relative;
-    top: 120px;
-    right: 100px;
-    padding: 5px;
 }
 
-ul{
-    text-decoration: none;
+ aside ul{
     list-style: none;
-    position:absolute;
+    position: absolute;
+    top: 70px;
+    width: 100%;
 }
 
-input[ type="checkbox"]
-{
+li{
+    text-decoration: none;
+}
+
+input[ type="checkbox"]{
     display: none;
 }
 
+nav{
+    background-color: plum;
+    width: 350px;
+    height: 100%;
+    left: -350px;
+    position: relative;
 
+
+}
+
+ aside a{
+    text-decoration: none;
+    background-color: plum;
+    display: block;
+    padding: 20px 5px;
+    color: rbg(111,129,141);
+}
+
+ aside a:hover{
+    background-color: rgb(152, 152, 226);
+}
+
+label{
+    padding: 15px;
+    position:absolute;
+    z-index: 1;
+}
+
+input[type="checkbox"]:checked ~ nav 
+{
+    transform: translateX(350px);
+}
 
 main{
     grid-area: principal;
@@ -110,30 +133,33 @@ main{
 }
 
 main h3{
-    color: rgb(180, 79, 180);
+    color: rbg(180, 54, 100);
     background-color: beige;
     border: 5px;
     padding: 10px;
 }
+main nav{
+    position: relative;
+    left: 23%;
+    align-items: center;
+}
 
 main nav a{
     text-decoration: none;
-    background-color: beige;
-    color: rgb(180, 54, 180);
+    color: rbg(180, 54, 100);
     border-radius: 3px;
     padding: 5px;
-
 }
 
 main nav a:hover{
     color: blueviolet;
     transition: 3s;
-    background-color: rgb(170, 163, 163);
+    background-color: rbg(170, 163, 163);
 }
 
 footer{
     grid-area: rodape;
-    background-color:plum;
+   
 }
 .insta{
     width: 10px;
