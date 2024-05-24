@@ -3,9 +3,9 @@ body{
     display: grid;
     gap: 15px;
     grid-template-areas:  
-    "cabeca cabeca cabeca"
     "principal principal principal"
-    "rodape rodape rodape";
+    "principal principal principal"
+    "principal principal principal";
     grid-template-columns: 1fr 1fr 2fr;
     grid-template-rows: auto auto auto;
 
@@ -13,14 +13,20 @@ body{
 @media only screen and  (max-width:800px ){
    body{
     grid-template-areas: 
-    "cabeca"
     "principal"
     "principal"
-    "rodape";
+    "principal"
+    "principal";
     grid-template-columns: auto;
     grid-template-rows: auto 200px auto auto auto;
     
     }
+}
+
+img{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 header{
@@ -31,7 +37,7 @@ header{
 
 main{
     grid-area: principal;
-    background-color:rgb(228, 228, 157);
+    background-color: rgb(224, 160, 224);
     align-items: center;
     text-align: center;
     border-radius: 50px;
@@ -42,7 +48,7 @@ main{
     padding: 60px;
     position: relative;
     left: 30%;
-    top: 30%;
+    top: 25%;
 }
  
 /* .painel{
@@ -62,22 +68,27 @@ main nav a{
     text-decoration: none;
     background-color: rgb(196, 118, 206);
     border-radius: 5px;
-    color: wheat;
+    color: rgb(247, 239, 175);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:x-large;
-    position: relative;
-    top: 70px;
+    position: absolute;
+    bottom: 15%;
+    right: 37%;
+    align-items: center;
+
     
 }
  main div{
     height: 300px;
     width: 300px;
     padding: 3px;
-    box-sizing: 60px;    
-    font-size: 25px;
+    position: relative;
+    bottom: 90%;
+    left: 10%;
+    color: rgb(217, 218, 178);
     text-align: center;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .confirmação{
@@ -92,10 +103,11 @@ h3{
     font-family:cursive;
     font-size: xx-large;
     position: relative;
-    color:rgb(146, 115, 56);
-    border:2px whitesmoke ;
+    bottom: 100%;
+    color:rgb(252, 253, 186);
+    border:5px rgb(230, 224, 148) ;
     border-radius: 2px;
-    background-color: rgb(238, 207, 142);
+    background-color: rgb(205, 157, 218);
 }
 
 footer{

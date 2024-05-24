@@ -1,4 +1,4 @@
-body{
+ body{
     background-color:white;
     display: grid;
     gap: 15px;
@@ -9,7 +9,7 @@ body{
     grid-template-columns: 1fr 1fr 2fr;
     grid-template-rows: auto auto auto;
 
- }
+ }  
 @media only screen and  (max-width:800px ){
    body{
     grid-template-areas: 
@@ -45,6 +45,16 @@ border-radius: 5px;
     width: 90px;
 }
 
+p{
+    position: relative;
+    top: 1%;
+    right: 45%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
 aside{
     grid-area: secundaria;
     background-color: bisque;
@@ -70,14 +80,12 @@ input[ type="checkbox"]{
     display: none;
 }
 
-nav{
+ aside nav{
     background-color: plum;
     width: 350px;
     height: 100%;
     left: -350px;
     position: relative;
-
-
 }
 
  aside a{
@@ -140,13 +148,12 @@ main h3{
 }
 main nav{
     position: relative;
-    left: 23%;
-    align-items: center;
+    left: 3%;
 }
 
 main nav a{
     text-decoration: none;
-    color: rbg(180, 54, 100);
+    color: rbg(180,54,100);
     border-radius: 3px;
     padding: 5px;
 }
@@ -158,27 +165,40 @@ main nav a:hover{
 }
 
 footer{
-    grid-area: rodape;
+   grid-area: rodape;
+    background-color: plum;
    
 }
+
 .insta{
     width: 10px;
     height: auto;
 }
+
 .whats{
     width: 10px;
     height: auto;
 }
 
+footer ul{
+    text-decoration: none;
+}
+
+footer li{
+    list-style: none;
+}
+
 .t2{
     position: relative;
-    left: 32px;
-    top: 0%;
+    left: 80px;
+    bottom: 40%;
+    flex-direction: column;
 }
 p{
     position: relative;
-    left: 32px;
-    top: 3px;
+    left: 80px;
+    bottom:50% ;
+    flex-direction: column;
 
 }
 
