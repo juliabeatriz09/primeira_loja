@@ -1,6 +1,5 @@
 *{
     padding: 0%;
-    margin: 0%;
 }
 
 body{
@@ -11,7 +10,7 @@ body{
     "cabeca cabeca cabeca"
     "secundaria principal principal"
     "rodape rodape rodape";
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: auto auto auto;
 
  }
@@ -96,10 +95,6 @@ border-radius: 5px;
 }
 /* fim  alteraçoes card */
 
-footer{
-    grid-area: rodape;
-    background-color:plum;
-}
 
  /* .caixa{ 
     box-shadow: 2px 0px 3px 1px white;
@@ -133,8 +128,10 @@ nav a{
    text-decoration: none;
    display: block;
    color:rgb(111, 129, 141);
-   background-color: plum;
+   background-color: rgb(233, 191, 233);
    padding: 20px 5px;
+   position: relative;
+   bottom: 30px;
 }
 
 aside{
@@ -209,7 +206,36 @@ li{
     width: 380px;
     height: 300px;
     padding: 20px ;
-  } 
+  }
+  
+  .skeatchbook{
+    width: 380px;
+    height: 300px;
+    padding: 5px;
+    border-radius: 2px;
+
+  }
+  .mascara{
+    width: 370x;
+    height: 280px;
+    padding: 5px;
+    border-radius: 20px;
+  }
+
+  .lapis{
+    width: 380px;
+    height: 280px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .caneta{
+    width: 380px;
+    height: 300px;
+    padding: 5px;
+    border-radius: 3px;
+  }
+
 .aquarela{
     position: relative;
     margin-top: 10px;
@@ -218,16 +244,19 @@ li{
     margin-bottom: 50px;
     width: 280px;
     height: 200px;
-  }  
+  }
+
 .cavalete{
     width: 260px;
     margin-top: 10px;
   }
+
 .tintaoleo{
     width: 2600px;
     height: 200px;
     margin-top: 10px;
   }
+
 .tela{
     width: 280px;
     height: 200px;
@@ -253,38 +282,71 @@ header h2{
     font-size: x-large;
 }
 
-footer{
-    grid-area: rodape;
-    background-color: plum;
-    margin: 0%;
-
-}
-
-.insta{
-    width: 10px;
-    height: auto;
-}
-.whats{
-    width: 10px;
-    height: auto;
-}
-
-.t2{
+li{
+    list-style: none;
+    text-align: center;
+    font-size:large;
     position: relative;
-    right: 0px;
+    bottom: 20px;
+    color: rgb(126, 106, 145);
 }
 
 .t1{
     text-align: center;
-
-}
-
-footer li{
-    text-align: center;
-    margin-top: 0%;
     position: relative;
-    top: 1px;
+    top: 10px;
+    font-size: large;
+    color:gray;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(222, 203, 240);
+    border-radius: 70px;
 }
+
+.t2{
+    position: relative;
+    bottom: 105px;
+    left:100px ;
+    font-size: large;
+    color: gray;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    border-radius: 70px;
+}
+
+footer p{
+    bottom: 80px;
+    font-size: x-large;
+    left: 90px;
+    color: rgb(126, 106, 145);
+
+}
+
+.whats{
+    width: auto;
+    height: 40px;
+    border-radius: 10px;
+    position: relative;
+    top: 60px;
+    left: 536px;
+    background-color: plum;
+}
+
+.insta{
+    width: auto;
+    height: 40px;
+    border-radius: 7px;
+    position: relative;
+    top: 20px;
+    left:580px;
+    background-color: plum;
+}
+
+footer{
+    grid-area:rodape;
+    background-color: plum;
+
+}
+
+
 
 /* botao bem vindo */
 /* button{

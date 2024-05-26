@@ -15,3 +15,14 @@ function troca_item() {
 
 }
 
+function troca_imagem() {
+    var coracao = document.getElementById('like');
+
+    if(coracao.scr.match("imagens/coracao.png")){
+        coracao.scr = "imagens/coracaoo.png";
+    }
+    else{
+        coracao.scr = "imagens/coracao.png"
+    }
+}
+
