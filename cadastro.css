@@ -6,9 +6,20 @@ body{
     "principal principal principal"
     "principal principal principal"
     "principal principal principal";
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
 
+ }
+
+
+
+ body{
+    background: url(imagens/undo.png) center center no-repeat fixed;
+    -moz-background-size: cover;
+    background-size: cover;
+    -webkit-background-size:cover ;
+    height: 100%;
+    width: 100%;
  }
 @media only screen and  (max-width:800px ){
    body{
@@ -18,77 +29,40 @@ body{
     "principal"
     "principal";
     grid-template-columns: auto;
-    grid-template-rows: auto 200px auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
     
     }
 }
 
-img{
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-}
 
-header{
-    grid-area: cabeca;
-    background-color:rgb(198, 127, 216);
-}
-
-
-main{
-    grid-area: principal;
-    background-color: rgb(224, 160, 224);
-    align-items: center;
-    text-align: center;
-    border-radius: 50px;
-    border: 500px;
-    justify-content: center;
-    width: 400px;
-    height: 480px;
-    padding: 60px;
-    position: relative;
-    left: 30%;
-    top: 25%;
-}
- 
-/* .painel{
-    border-radius: 10px;
-    width: 300px;
-    height: 450px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin: 5%;
-    background-color: rgb(145, 175, 209);
-    transition: 1s;
-} */
-
-
-main nav a{
+body  a{
     text-decoration: none;
     background-color: rgb(196, 118, 206);
     border-radius: 5px;
     color: rgb(247, 239, 175);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:x-large;
-    position: absolute;
-    bottom: 15%;
-    right: 37%;
     align-items: center;
+    position: relative;
+    left: 150%;
+    bottom: 10%;
 
     
 }
- main div{
-    height: 300px;
-    width: 300px;
-    padding: 3px;
+
+body div{
+    height: 500px;
+    width: 500px;
     position: relative;
-    bottom: 90%;
-    left: 10%;
-    color: rgb(217, 218, 178);
-    text-align: center;
+    right: 90%;
+    padding: 30px;
+    background-color: rgb(203, 166, 238);
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    top: 50%;
+    border-radius: 20px;
+
 }
 
 .confirmação{
@@ -103,15 +77,11 @@ h3{
     font-family:cursive;
     font-size: xx-large;
     position: relative;
-    bottom: 100%;
     color:rgb(252, 253, 186);
-    border:5px rgb(230, 224, 148) ;
     border-radius: 2px;
     background-color: rgb(205, 157, 218);
+    position: relative;
+    top: 50%;
+    left: 30%;
 }
 
-footer{
-    grid-area:rodape;
-    background-color: rgb(198, 127, 216);
-
-}
