@@ -1,5 +1,4 @@
 body{
-    background-color:rgb(198, 127, 216);
     display: grid;
     gap: 15px;
     grid-template-areas:  
@@ -10,8 +9,6 @@ body{
     grid-template-rows: auto auto auto;
 
  }
-
-
 
  body{
     background: url(imagens/undo.png) center center no-repeat fixed;
@@ -44,8 +41,8 @@ body  a{
     font-size:x-large;
     align-items: center;
     position: relative;
-    left: 150%;
-    bottom: 10%;
+    right: 90%;
+    top: 120%;
 
     
 }
@@ -54,34 +51,35 @@ body div{
     height: 500px;
     width: 500px;
     position: relative;
-    right: 90%;
-    padding: 30px;
-    background-color: rgb(203, 166, 238);
+    right: 10%;
+    top: 40%;
+    background-color: rgb(203, 166, 238); 
     align-items: center;
     justify-content: center;
     text-align: center;
-    top: 50%;
+    top: 30%;
     border-radius: 20px;
 
+}
+
+input{
+    margin: 8px;
+    position: relative;
+    top: 5%;
 }
 
 .confirmação{
    font-size: small;
    position: relative;
-   top: 50px;
-   left: 30px;
+   top: 10%;
+   left: 10px;
 
 }
 
 h3{
-    font-family:cursive;
     font-size: xx-large;
-    position: relative;
-    color:rgb(252, 253, 186);
-    border-radius: 2px;
-    background-color: rgb(205, 157, 218);
-    position: relative;
-    top: 50%;
-    left: 30%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(102, 102, 101);
 }
+
 

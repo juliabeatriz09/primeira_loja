@@ -37,6 +37,19 @@ header{
     flex-direction: column;
 }
 
+header a{
+    text-decoration: none;
+    background-color: rgb(182, 180, 184);
+    color: rgb(109, 34, 128);
+    margin: 3px;
+}
+
+ header a:hover{
+    background-color: rgb(166, 101, 179);
+    transition: 2s;
+
+}
+
 .titulo{
     color:rgba(253, 242, 242, 0.699);
     font-family: cursive;
