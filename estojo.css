@@ -11,7 +11,7 @@ body{
     "cabeca cabeca cabeca"
     "secundaria principal principal"
     "rodape rodape rodape";
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: auto auto auto;
 
  }  
@@ -35,28 +35,6 @@ header{
     background-color: plum;
 }
 
-header li{
-    text-decoration: none;
-    background-color: darkviolet;
-
-}
-
-header a{
-    height: 30px;
-    width: 90px;
-    text-decoration: none;
-    background-color: rgb(182, 180, 184);
-    color: rgb(109, 34, 128);
-    margin: 3px;
-    position: relative;
-    font-size: larger;
-    font-family: 'Times New Roman', Times, serif;
-    left: 957px;
-    top: 70px;
-    border-radius: 10px;
-    display: flex;
-}
-
 header h2{
     position: relative;
     right: 60px;
@@ -69,14 +47,6 @@ main a{
    color:mediumpurple;
    background-color: gainsboro;
    border-radius: 5px;
-}
-
-.home{
-    width: 40px;
-    height: 40px;
-    position: relative;
-    left: 800px;
-    top: 60px;
 }
 
 

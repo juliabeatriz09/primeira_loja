@@ -150,7 +150,6 @@ input[type="checkbox"]:checked ~ nav
     transform: translateX(350px);
 }
 
-
 label{
     padding: 5px;
     position: absolute;
@@ -224,28 +223,28 @@ input{
     padding: 20px ;
   }
   
-  .skeatchbook{
+.skeatchbook{
     width: 380px;
     height: 300px;
     padding: 5px;
     border-radius: 2px;
 
   }
-  .mascara{
+.mascara{
     width: 370x;
     height: 280px;
     padding: 5px;
     border-radius: 20px;
   }
 
-  .lapis{
+.lapis{
     width: 380px;
     height: 280px;
     padding: 5px;
     border-radius: 5px;
   }
 
-  .caneta{
+.caneta{
     width: 380px;
     height: 300px;
     padding: 5px;
@@ -278,11 +277,13 @@ input{
     height: 200px;
     margin-top: 10px;
   }
+
 .giz{
     width: 280px;
     height: 200px;
     margin-top: 10px;
   }
+
 .diluidor{
     height: 240px;
     width: 280px;
