@@ -41,8 +41,8 @@ body  a{
     font-size:x-large;
     align-items: center;
     position: relative;
-    right: 90%;
-    top: 120%;
+    right: 10%;
+    top: 90%;
 
     
 }
@@ -66,6 +66,12 @@ input{
     margin: 8px;
     position: relative;
     top: 5%;
+}
+
+.paleta{
+    position: relative;
+    right: 300px;
+    top: 50px;
 }
 
 .confirmação{
