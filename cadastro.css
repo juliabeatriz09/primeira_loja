@@ -1,3 +1,4 @@
+/* grid cadastro */
 body{
     display: grid;
     gap: 15px;
@@ -5,19 +6,21 @@ body{
     "principal principal principal"
     "principal principal principal"
     "principal principal principal";
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto auto  auto auto;
 
  }
+/* fim grid */
 
+/* ajuste background */
  body{
-    background: url(imagens/undo.png) center center no-repeat fixed;
-    -moz-background-size: cover;
-    background-size: cover;
-    -webkit-background-size:cover ;
+    background-color: rgb(198, 153, 240);
     height: 100%;
     width: 100%;
  }
+/* fim de ajuste background  */
+
+/* começo responsividade */
 @media only screen and  (max-width:800px ){
    body{
     grid-template-areas: 
@@ -30,28 +33,29 @@ body{
     
     }
 }
+/* fim responsivdade */
 
-
+/* começo botao confirmaçao */
 body  a{
     text-decoration: none;
     background-color: rgb(196, 118, 206);
-    border-radius: 5px;
     color: rgb(247, 239, 175);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:   Arial, sans-serif;
     font-size:x-large;
     align-items: center;
     position: relative;
     right: 10%;
-    top: 90%;
-
-    
+    top: 100%; 
 }
 
+/* fim botao confirmaçao */
+
+/* começo div */
 body div{
     height: 500px;
     width: 500px;
     position: relative;
-    right: 10%;
+    right: 30%;
     top: 40%;
     background-color: rgb(203, 166, 238); 
     align-items: center;
@@ -62,30 +66,42 @@ body div{
 
 }
 
+/* fim da div */
+/* começo campos de cadastro */
 input{
     margin: 8px;
     position: relative;
     top: 5%;
+    width: 300px;
+    height: 20px;
 }
+
+/* fim dos campos */
+/* ajuste images */
 
 .paleta{
     position: relative;
     right: 300px;
-    top: 50px;
+    top: 60px;
+    width: 600px;
 }
+/* fim ajuste de imagem */
+/* começo checkbox */
 
 .confirmação{
    font-size: small;
    position: relative;
    top: 10%;
    left: 10px;
-
 }
+/* fim checkbox */
 
+/* titulo */
 h3{
     font-size: xx-large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(102, 102, 101);
 }
+/* fim titulo */
 
 

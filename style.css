@@ -2,7 +2,7 @@
     padding: 0%;
     
 }
-
+/* inicio grid */
 body{
     background-color:white;
     display: grid;
@@ -14,7 +14,10 @@ body{
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: auto auto auto;
 
- }
+}
+/* fim grid */
+
+/* incio responsividade */
 @media only screen and  (max-width:800px ){
    body{
     grid-template-areas: 
@@ -28,7 +31,9 @@ body{
     }
 
 }
+/* fim responsividade */
 
+/*inicio alteraçoes header  */
 header{
     grid-area: cabeca;
     background-color: plum;
@@ -39,13 +44,16 @@ header{
     flex-direction: column;
     background-image: linear-gradient( to rigth, rgb(243, 145, 199), rgb(143, 193, 221), rgb(212, 214, 108) )
 }
+/* fim alteraçoes */
 
+/* inicio alteraçoes main */
 main{
     grid-area: principal;
     background-color: rgb(238, 230, 238);
     padding: 60px;
     margin: 4px;
 }
+/* fim das alteraçoes */
 
 /* inicio card */
 .caixa_mae{
@@ -70,15 +78,17 @@ main{
     box-shadow: 0px 10px 40px rgb(177, 148, 223);
 }
 
+/* troca de cor */
 .card:hover{
     background-color: rgb(156, 63, 110)
 }
+/* fim da troca  */
 
  .card img{
 width: 280px;
 border-radius: 5px;
 } 
-
+/* botao card */
 .card a{
     border-radius: 30px;
     background-color: purple;
@@ -95,8 +105,8 @@ border-radius: 5px;
     background-color: rgb(88, 12, 63);
     color: rgb(109, 6, 100);
 }
+/* fim botao */
 /* fim  alteraçoes card */
-
 
  /* .caixa{ 
     box-shadow: 2px 0px 3px 1px white;
@@ -135,22 +145,28 @@ nav a{
    position: relative;
    bottom: 30px;
 }
-
+/* inicio alteraçoes aside  */
 aside{
     grid-area: secundaria;
     background-color: bisque;
     display: flex;
 } 
+/* fim alteraçoes */
+
+/*ajuste icone   */
 .menu{
     width: 40px;
     height: 40px;
 
 }
+/* fim ajuste */
 
+/* inicio transform menu */
 input[type="checkbox"]:checked ~ nav
 {
     transform: translateX(350px);
 }
+/* fim transform */
 
 label{
     padding: 5px;
@@ -169,6 +185,7 @@ a:hover{
 
 }
 
+/* alteraçoes na listagem menu */
 ul{
     position: absolute;
     top: 50x;
@@ -180,6 +197,7 @@ li{
     position: relative;
     text-align: center;
 }
+/* fim alteraçoes */
 
 /* responsividade menu */
 @media only screen and  (max-width:400px ){
@@ -191,6 +209,7 @@ li{
 /* fim responsividade menu */
 /* fim alteraçoes menu */
 
+/* ajuste icone pesquisa */
 .lupa{
     width:50px ;
     height: 50px;
@@ -199,7 +218,9 @@ li{
     top: 220px;
 
 }
+/* fim ajuste */
 
+/* campo para pesquisa */
 input{
     width: 300px;
     height: 30px;
@@ -209,7 +230,9 @@ input{
     left: 420px;
     top: 180px;
 }
+/* fim campo */
 
+/* ajuste logo */
 .logotipo{
     position: relative;
     margin-top: 7px;
@@ -218,6 +241,8 @@ input{
     width: 90px;
     border-radius: 3px;
 }
+/* fim ajuste logo */
+
 /* inicio alteraçoes img card */
 .pincel{ 
     width: 380px;
@@ -249,7 +274,6 @@ input{
 .caneta{
     width: 380px;
     height: 300px;
-    padding: 5px;
     border-radius: 3px;
   }
 
@@ -301,6 +325,7 @@ header h2{
     font-size: x-large;
 }
 
+/* inicio alteraçoes listagem footer */
 li{
     list-style: none;
     text-align: center;
@@ -332,20 +357,22 @@ li{
 }
 
 footer p{
-    bottom: 80px;
+    bottom: 50px;
     font-size: x-large;
     left: 90px;
     color: rgb(126, 106, 145);
 
 }
+/* fim listagem */
 
+/* ajuste img footer */
 .whats{
     width: auto;
     height: 40px;
     border-radius: 10px;
     position: relative;
     top: 60px;
-    left: 800px;
+    left: 525px;
     background-color: plum;
 }
 
@@ -355,17 +382,17 @@ footer p{
     border-radius: 7px;
     position: relative;
     top: 20px;
-    left:84px;
+    left: 570px;
     background-color: plum;
 }
+/* fim ajuste img */
 
+/* inicio alteraçoes  footer*/
 footer{
     grid-area:rodape;
     background-color: plum;
-
 }
-
-
+/* fim alteraçoes  */
 
 /* botao bem vindo */
 /* button{

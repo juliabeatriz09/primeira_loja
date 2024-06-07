@@ -3,6 +3,7 @@
     margin: 0%;
 }
 
+/* inicio grid produto */
 body{
     background-color:white;
     display: grid;
@@ -15,6 +16,9 @@ body{
     grid-template-rows: auto auto auto auto;
 
  }  
+ /* fim grid produto */
+
+ /* inicio responsividade  */
 @media only screen and  (max-width:800px ){
    body{
     grid-template-areas: 
@@ -28,28 +32,35 @@ body{
     }
 }
 
+/* fim responsividade */
+/* inicio alteraçoes header */
 header{
     grid-area: cabeca;
     color:rgba(253, 242, 242, 0.699);
     display: flex;
     background-color: plum;
 }
+/* fim alteraçoes header */
 
+/* inicio nome loja */
 header h2{
     position: relative;
     right: 60px;
     top: 30px;
     font-size: x-large;
 }
+/* fim ajuste nome  */
 
+/* inicio botao add */
 main a{
    text-decoration: none;
    color:mediumpurple;
    background-color: gainsboro;
    border-radius: 5px;
 }
+/* fim  botao add*/
 
-
+/* inicio ajuste logo */
 .logotipo{
     position: relative;
     right: 125px;
@@ -57,7 +68,9 @@ main a{
     margin-bottom: 7px;
     width: 90px;
 }
+/* fim ajuste de logo */
 
+/* incio parcela de produto */
  main p{
     position: relative;
     top: 1%;
@@ -66,12 +79,17 @@ main a{
     justify-content: center;
     align-items: center;
 }
+/* fim parcela de produto */
 
+/* inicio aside */
 aside{
     grid-area: secundaria;
     background-color: rgb(243, 226, 205);
 }
+/* fim aside */
 
+/* incio menu */
+/* alteraçao do icone */
 .menu{
     width: 40px;
     height: 40px;
@@ -79,7 +97,9 @@ aside{
     right: 200px;
     top: 50px;
 }
+/* fim das alteraçoes */
 
+/* alteraçoes da listagem */
  aside ul{
     list-style: none;
     position: absolute;
@@ -90,6 +110,7 @@ aside{
 li{
     text-decoration: none;
 }
+/* fim das alteraçoes */
 
 input[ type="checkbox"]{
     display: none;
@@ -104,6 +125,7 @@ input[ type="checkbox"]{
     position: relative;
 }
 
+/* inicio ajuste ancora */
  aside a{
     text-decoration: none;
     background-color: plum;
@@ -112,10 +134,13 @@ input[ type="checkbox"]{
     padding: 25px 5px;
     color: rbg(111,129,141);
 }
+/* troca de cor ancora */
 
  aside a:hover{
     background-color: rgb(152, 152, 226);
 }
+/* fim ajuste ancora */
+
 
 label{
     padding: 15px;
@@ -127,14 +152,18 @@ input[type="checkbox"]:checked ~ nav
 {
     transform: translateX(350px);
 }
+/* fim menu */
 
+/*ajustes main  */
 main{
     grid-area: principal;
     background-color: rgb(238, 230, 238);
     padding: 60px;
     margin: 0%;
 }
+/* fim ajustes */
 
+/* inicio imagem produto */
 .estojo{
     width: 500px;
     height: 450px;
@@ -147,13 +176,18 @@ main{
     padding: auto;
 
 }
+/* fim image produto */
 
+/* inicio descriçao produto */
 main h3{
     color: rbg(180, 54, 100);
     background-color: beige;
     border: 5px;
     padding: 10px;
 }
+/* fim  da descriçao */
+
+/* incio botao */
 main nav{
     position: relative;
     left: 3%;
@@ -171,14 +205,18 @@ main nav a:hover{
     transition: 3s;
     background-color: rbg(170, 163, 163);
 }
+/* fim botao */
 
+/* inicio parcela  */
 main p{
     position: relative;
     left: 5px;
     bottom: 40px;
 
 }
+/*  fim parcela */
 
+/* inicio campo para quantidade */
 label{
     font-size: medium;
     position: relative;
@@ -195,6 +233,7 @@ input{
     bottom: 40px;
     background-color: rgb(230, 206, 230);
 }
+/* fim campo  */
 
 /* inicio responsividade menu */
 @media only screen and (max-width: 400px ){
@@ -204,13 +243,16 @@ input{
 }
 /* fim responsividade menu */
 
+/* inicio alteraçoes footer */
 footer{
    grid-area: rodape;
    background-color: plum;
    margin: 0%;
    
 }
+/* fim alteraçoes */
 
+/* inicio listagem contato */
 footer li{
     list-style: none;
     position: relative;
@@ -219,7 +261,9 @@ footer li{
     font-size:large;
     color: rgb(126, 106, 145);
 }
+/* fim listagem */
 
+/* inicio alteraçoes texto */
 .t1{
     text-align: center;
     position: relative;
@@ -249,7 +293,9 @@ footer p{
     color: rgb(126, 106, 145);
 
 }
+/* fim alteraçoes texto  */
 
+/* inicio ajuste de imagem */
 .whats{
     width: auto;
     height: 40px;
@@ -269,3 +315,4 @@ footer p{
     left:580px;
     background-color: plum;
 }
+/* fim ajuste de imagem */

@@ -1,8 +1,11 @@
+// inicio alerta
 function ola() {
     nome = prompt(" nome ");
     alert(nome);
 }
+// fim alerta
 
+// inicio troca de imagem
 function troca_item() {
     var coracao = document.getElementById('like');
 
@@ -14,15 +17,4 @@ function troca_item() {
     }
 
 }
-
-function troca_imagem() {
-    var coracao = document.getElementById('like');
-
-    if(coracao.scr.match("imagens/coracao.png")){
-        coracao.scr = "imagens/coracaoo.png";
-    }
-    else{
-        coracao.scr = "imagens/coracao.png"
-    }
-}
-
+// fim troca de imagem
