@@ -98,6 +98,45 @@ section{
     transition: 1s;
 } 
 
+.compra{
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    background-color: rgb(219, 179, 231);
+    border:2px blueviolet;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+main h2{
+    position: relative;
+    bottom: 70px;
+}
+
+.item{
+    position: relative;
+    right: 145px;
+}
+
+.preço1{
+position: relative;
+
+
+}
+
+.preço2{
+    position: relative;
+    right: 90px;
+    bottom: 5px;
+}
+
+.item2{
+    position:relative;
+    right: 255px;
+    bottom: 20px;
+}
+
 .descriçao{
     position: relative;
     bottom: 40px;
