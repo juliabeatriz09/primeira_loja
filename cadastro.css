@@ -21,7 +21,7 @@ body{
 /* fim de ajuste background  */
 
 /* começo responsividade */
-@media only screen and  (max-width:800px ){
+@media only screen and  (max-width:400px ){
    body{
     grid-template-areas: 
     "principal"
@@ -44,8 +44,8 @@ body  a{
     font-size:x-large;
     align-items: center;
     position: relative;
-    right: 10%;
-    top: 100%; 
+    right: 5%;
+    bottom: 10px; 
 }
 
 /* fim botao confirmaçao */
@@ -91,8 +91,15 @@ input{
 .confirmação{
    font-size: small;
    position: relative;
-   top: 10%;
-   left: 10px;
+   top: 30px;
+   right: 100px;
+   padding: 2px;
+   margin-left: 1%;
+}
+
+p{
+   position: relative;
+   bottom: 15px;
 }
 /* fim checkbox */
 

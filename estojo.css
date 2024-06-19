@@ -19,7 +19,7 @@ body{
  /* fim grid produto */
 
  /* inicio responsividade  */
-@media only screen and  (max-width:800px ){
+@media only screen and  (max-width:400px ){
    body{
     grid-template-areas: 
     "cabeca"
@@ -27,7 +27,7 @@ body{
     "principal"
     "rodape";
     grid-template-columns: auto auto;
-    grid-template-rows: auto 200px auto auto auto;
+    grid-template-rows: auto 100px auto auto auto;
     
     }
 }
