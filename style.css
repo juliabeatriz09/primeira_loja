@@ -1,5 +1,5 @@
 *{
-    padding: 0%;
+
     
 }
 /* inicio grid */
@@ -25,9 +25,15 @@ body{
     "principal"
     "rodape";
     grid-template-columns: auto;
-    grid-template-rows: auto  auto auto auto;
-    
+    grid-template-rows: 300px auto auto;
+     }
+     aside{
+        display: none;
     }
+    .logotipo{
+        display:none;
+    }
+    
 
 }
 /* fim responsividade */
@@ -42,6 +48,7 @@ header{
     text-align: center;
     flex-direction: column;
     background-image: linear-gradient( to rigth, rgb(243, 145, 199), rgb(143, 193, 221), rgb(212, 214, 108) )
+    position: relative;
 }
 /* fim alteraçoes */
 
@@ -58,7 +65,8 @@ main{
 .caixa_mae{
     display: flex;
     flex-wrap: wrap;
-    justify-content: baseline;
+    justify-content:space-around;
+    
     
 }
 
@@ -70,7 +78,7 @@ main{
     display: flex;
     text-align: center;
     align-items: center;
-    margin: 20px;
+    margin:10px;
     background-color: rgb(235, 150, 230);
     justify-content: center;
     transition: 1s;
@@ -85,7 +93,8 @@ main{
 
  .card img{
 width: 280px;
-border-radius: 5px;
+border-radius: 10px;
+
 } 
 /* botao card */
 .card a{
@@ -130,9 +139,9 @@ border-radius: 5px;
 nav{
     background-color: rgb(233, 191, 233);
     width: 350px;
-    height:100% ;
-    left: -350px;
-    position:relative ;
+    height:10px ;
+    left: -390px;
+    position:absolute ;
     margin-top: 20px;
 }
 
@@ -157,6 +166,7 @@ aside{
 .menu{
     width: 40px;
     height: 40px;
+    top:50px;
 
 }
 /* fim ajuste */
@@ -172,7 +182,7 @@ label{
     padding: 5px;
     position: absolute;
     z-index: 1;
-    top: 300px;
+    top: 30px;
     left: 10px;
 }
 
